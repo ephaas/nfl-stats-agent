@@ -1,0 +1,25 @@
+# Node / Next.js
+node_modules
+.next
+
+# Python / uv
+.venv
+__pycache__
+.pytest_cache
+
+# Local env files hold the API keys
+.env
+.env.local
+.env*.local
+
+# Eval run outputs
+evals/runs/
+
+# DuckDB databases and write-ahead logs
+*.duckdb
+*.duckdb.wal
+
+# macOS
+.DS_Store
+
+# .cursor/ and openspec/ are committed on purpose; don't ignore them.
